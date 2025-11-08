@@ -23,7 +23,8 @@
             bindings = <&kp>, <&kp>;
         };
     };
-        keymap {
+
+    keymap {
                 compatible = "zmk,keymap";
 
                 default_layer {
@@ -72,16 +73,5 @@
                         >;
                 };
 
-                extra_1 {
-                        status = "reserved";
-                };
-
-                extra_2 {
-                        status = "reserved";
-                };
-
-                extra_3 {
-                        status = "reserved";
-                };
-        };
+    };
 };
