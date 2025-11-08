@@ -7,6 +7,15 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/pointing.h>
+
+// Layer definitions
+#define LYR_BASE 0
+#define LYR_NUM  1
+#define LYR_NAV  2
+#define LYR_MOU  3
+#define LYR_APP  4
+#define LYR_BLU  5
 
 / {
     chosen {
