@@ -13,6 +13,49 @@
         zmk,physical-layout = &foostan_corne_5col_layout;
     };
 
+    macros {
+        vim_quit: vim_quit {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp COLON &kp Q &kp EXCL>;
+        };
+        raycast: raycast {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LG(SPACE)>;
+        };
+        zoom_out: zoom_out {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LG(MINUS)>;
+        };
+        zoom_in: zoom_in {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press &kp LGUI &kp LSHFT>, <&macro_tap &kp EQUAL>, <&macro_release &kp LGUI &kp LSHFT>;
+        };
+        vim_next_diag: vim_next_diag{
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RBKT &kp D>;
+        };
+        vim_prev_diag: vim_prev_diag{
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LBKT &kp D>;
+        };
+        vim_next_error: vim_next_error {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RBKT &kp E>;
+        };
+        vim_prev_error: vim_prev_error {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LBKT &kp E>;
+        };
+    };
+
     behaviors {
         hml: home_row_mod_left {
             compatible = "zmk,behavior-hold-tap";
