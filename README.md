@@ -14,6 +14,13 @@ My simple ZMK config for my 10 column corne keyboard
 - `A;`: Caps word
 - `XCV`: Hold to enable bluetooth layer
 
+### Switch layer
+- Right thumb 2: number and symbol layer
+- Left thumb 2: navigation layer
+- Right thumb 1: app layer
+- Right thumb 3: mouse simulation layer
+- Combo XCV: bluetooth layer
+
 ## Number and symbol layer
 <img width="940" height="390" alt="image" src="https://github.com/user-attachments/assets/d9d9a372-d099-4e74-84b1-8cd4e9a30263" />
 
