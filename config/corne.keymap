@@ -289,5 +289,13 @@
             bindings = <&kp LG(LS(C))>;
             layers = <LYR_NAV>;
         };
+
+        combo_caps_word {
+            timeout-ms = <50>;
+            key-positions = <10 19>;  // A and ;
+            bindings = <&caps_word>;
+            layers = <LYR_BASE>;
+        };
+
     };
 };
