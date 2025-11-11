@@ -292,8 +292,23 @@
 
         combo_caps_word {
             timeout-ms = <50>;
-            key-positions = <10 19>;  // A and ;
+            key-positions = <26 27>;  // M and ,
             bindings = <&caps_word>;
+            layers = <LYR_BASE>;
+        };
+
+        combo_caps_lock {
+            timeout-ms = <50>;
+            key-positions = <27 28>;  // , and .
+            bindings = <&kp CAPSLOCK>;
+            layers = <LYR_BASE>;
+        };
+
+        // Sending Ctrl + Shift to switch input languages
+        combo_lang_switch {
+            timeout-ms = <50>;
+            key-positions = <6 7>;  // U I
+            bindings = <&kp LC(LSHFT)>;
             layers = <LYR_BASE>;
         };
 
