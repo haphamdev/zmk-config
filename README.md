@@ -11,7 +11,9 @@ My simple ZMK config for my 10 column corne keyboard
 - `XC`: `Cmd C` (Copy)
 - `CV`: `Cmd V` (Paste)
 - `DF`: `Cmd Shift V` Clipboard history
-- `A;`: Caps word
+- `M,`: Caps word
+- `,.`: Caps lock
+- `UI`: Tap for Ctrl Shift (for switching input language between Vietnamese and English), which is more convenient than **holding** J+K or D+F
 - `XCV`: Hold to enable bluetooth layer
 
 ### Switch layer
