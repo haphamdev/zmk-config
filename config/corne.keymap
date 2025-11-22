@@ -33,22 +33,6 @@
             #binding-cells = <0>;
             bindings = <&kp LG(SPACE)>;
         };
-        app_switch: app_switch {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <0>;
-            tap-ms = <50>;
-            bindings
-                = <&macro_press &kp LGUI>
-                , <&macro_wait_time 50>
-                , <&macro_tap &kp TAB>
-                , <&macro_release &kp LGUI>;
-        };
-        window_switch: window_switch {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LG(GRAVE)>;
-        };
         zoom_out: zoom_out {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -255,6 +239,7 @@
             timeout-ms = <50>;
             key-positions = <11 12>;  // S D
             bindings = <&kp TAB>;
+            layers = <LYR_BASE>;
         };
 
         combo_copy {
@@ -332,7 +317,7 @@
         combo_app_switch {
             timeout-ms = <50>;
             key-positions = <11 12>;  // S D
-            bindings = <&app_switch>;
+            bindings = <&kp LG(TAB)>;
             layers = <LYR_APP>;
         };
 
@@ -340,7 +325,7 @@
         combo_window_switch {
             timeout-ms = <50>;
             key-positions = <12 13>;  // D F
-            bindings = <&window_switch>;
+            bindings = <&kp LG(GRAVE)>;
             layers = <LYR_APP>;
         };
 
