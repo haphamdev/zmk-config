@@ -200,9 +200,9 @@
 
             bindings = <
 &none              &kp LG(LS(LC(W)))  &none              &none                 &kp LG(LS(LC(T)))  /**/        &kp LG(LS(N5))       &kp LG(LC(LEFT))      &kp LG(LC(RIGHT))  &kp LG(LC(RET))    &kp LG(LC(LBKT))
-&kp LG(LS(LC(A)))  &kp LG(LS(LC(S)))  &kp LG(LS(LC(D)))  &kp LG(LS(LC(F)))     &raycast           /**/        &kp LG(LS(N4))       &vim_next_diag        &vim_prev_diag     &none              &none
+&kp LG(LS(LC(A)))  &kp LG(LS(LC(S)))  &kp LG(LS(LC(D)))  &kp LG(LS(LC(F)))     &kp LG(LS(LC(G)))  /**/        &kp LG(LS(N4))       &vim_next_diag        &vim_prev_diag     &none              &none
 &kp LG(LS(LC(Z)))  &none              &kp LG(LS(LC(C)))  &kp LG(LS(LC(V)))     &none              /**/        &kp LG(LS(N2))       &vim_next_error       &vim_prev_error    &none              &none
-                                      &trans             &trans                &trans             /**/        &trans               &trans                &trans
+                                      &trans             &trans                &raycast           /**/        &trans               &trans                &trans
             >;
 
             label = "app";
