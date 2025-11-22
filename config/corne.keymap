@@ -200,9 +200,9 @@
 
             bindings = <
 &none              &kp LG(LS(LC(W)))  &none              &none                 &kp LG(LS(LC(T)))  /**/        &kp LG(LS(N5))       &kp LG(LC(LEFT))      &kp LG(LC(RIGHT))  &kp LG(LC(RET))    &kp LG(LC(LBKT))
-&kp LG(LS(LC(A)))  &kp LG(LS(LC(S)))  &none              &kp LG(LS(LC(F)))     &raycast           /**/        &kp LG(LS(N4))       &vim_next_diag        &vim_prev_diag     &none              &none
-&none              &none              &kp LG(LS(LC(C)))  &kp LG(LS(LC(V)))     &none              /**/        &kp LG(LS(N2))       &vim_next_error       &vim_prev_error    &none              &none
-                                      &trans             &trans                &trans             /**/        &trans               &trans                &trans
+&kp LG(LS(LC(A)))  &kp LG(LS(LC(S)))  &kp LG(LS(LC(D)))  &kp LG(LS(LC(F)))     &kp LG(LS(LC(G)))  /**/        &kp LG(LS(N4))       &vim_next_diag        &vim_prev_diag     &none              &none
+&kp LG(LS(LC(Z)))  &none              &kp LG(LS(LC(C)))  &kp LG(LS(LC(V)))     &none              /**/        &kp LG(LS(N2))       &vim_next_error       &vim_prev_error    &none              &none
+                                      &trans             &trans                &raycast           /**/        &trans               &trans                &trans
             >;
 
             label = "app";
@@ -239,6 +239,7 @@
             timeout-ms = <50>;
             key-positions = <11 12>;  // S D
             bindings = <&kp TAB>;
+            layers = <LYR_BASE>;
         };
 
         combo_copy {
@@ -310,6 +311,22 @@
             key-positions = <6 7>;  // U I
             bindings = <&kp LC(LSHFT)>;
             layers = <LYR_BASE>;
+        };
+
+        // App layer: Cmd + Tab to switch between apps
+        combo_app_switch {
+            timeout-ms = <50>;
+            key-positions = <11 12>;  // S D
+            bindings = <&kp LG(TAB)>;
+            layers = <LYR_APP>;
+        };
+
+        // App layer: Cmd + ` to switch between windows
+        combo_window_switch {
+            timeout-ms = <50>;
+            key-positions = <12 13>;  // D F
+            bindings = <&kp LG(GRAVE)>;
+            layers = <LYR_APP>;
         };
 
     };
