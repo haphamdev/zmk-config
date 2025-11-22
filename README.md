@@ -51,16 +51,27 @@ My simple ZMK config for my 10 column corne keyboard
 
 ## App layer
 
-<img width="926" height="388" alt="image" src="https://github.com/user-attachments/assets/dcb05d1f-76a4-4764-8ca8-d5ae3e994ffc" />
+<img width="964" height="394" alt="image" src="https://github.com/user-attachments/assets/54ed4892-4efb-4e24-a150-526af6cab403" />
 
-### Key bindings
+### App shortcuts
 
-- `Space`: Raycast (`Cmd Space`)
+On the left half, most of the key are mapped to activate the dedicated apps. Pressing one of those keys on App layer will send that key together with Cmd + Shift + Ctrl.
+I use Raycast to create shortcuts for the following apps:
+- `A`: Sending Cmd + Shift + Ctrl + A (for opening Arc browser);
+- `S`: Sending Cmd + Shift + Ctrl + S (for opening Slack);
+- `D`: Sending Cmd + Shift + Ctrl + D (for opening Discord);
+- `F`: Sending Cmd + Shift + Ctrl + F (for opening Finder);
+- `G`: Sending Cmd + Shift + Ctrl + G (for opening ChatGPT);
+- `W`: Sending Cmd + Shift + Ctrl + W (for opening Wezterm);
+- `T`: Sending Cmd + Shift + Ctrl + T (for opening Telegram);
+- `Z`: Sending Cmd + Shift + Ctrl + Z (for opening Zalo);
+- `C`: Sending Cmd + Shift + Ctrl + C (for opening Claude AI);
+- `V`: Sending Cmd + Shift + Ctrl + V (for opening Visual Studio Code);
 
 ### Combos
 
-- `SD`: `Cmd Tab` (Switch between apps)
-- `DF`: `Cmd \`` (Switch between windows of the same app)
+- `SD`: `Cmd + Tab` (Switch between apps)
+- `DF`: `Cmd + Backtick` (Switch between windows of the same app)
 
 ## Bluetooth layer
 
