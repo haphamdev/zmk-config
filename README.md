@@ -57,6 +57,7 @@ My simple ZMK config for my 10 column corne keyboard
 
 On the left half, most of the key are mapped to activate the dedicated apps. Pressing one of those keys on App layer will send that key together with Cmd + Shift + Ctrl.
 I use Raycast to create shortcuts for the following apps:
+
 - `A`: Sending Cmd + Shift + Ctrl + A (for opening Arc browser);
 - `S`: Sending Cmd + Shift + Ctrl + S (for opening Slack);
 - `D`: Sending Cmd + Shift + Ctrl + D (for opening Discord);
@@ -72,6 +73,7 @@ I use Raycast to create shortcuts for the following apps:
 
 - `SD`: `Cmd + Tab` (Switch between apps)
 - `DF`: `Cmd + Backtick` (Switch between windows of the same app)
+- `QW`: Sending `:qa` (Vim quit all)
 
 ## Bluetooth layer
 
