@@ -28,6 +28,11 @@
             #binding-cells = <0>;
             bindings = <&kp COLON &kp Q &kp EXCL>;
         };
+        vim_quit_all: vim_quit_all {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp COLON &kp Q &kp A>;
+        };
         raycast: raycast {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -316,6 +321,14 @@
             timeout-ms = <50>;
             key-positions = <12 13>;  // D F
             bindings = <&kp LG(GRAVE)>;
+            layers = <LYR_APP>;
+        };
+
+        // App layer: :qa to quit all
+        combo_vim_quit_all {
+            timeout-ms = <50>;
+            key-positions = <0 1>;  // Q W
+            bindings = <&vim_quit_all>;
             layers = <LYR_APP>;
         };
 
