@@ -78,11 +78,8 @@ I use Raycast to create shortcuts for the following apps:
 
 ## Symbol layer
 
-Extracted from the old number layer. Contains brackets, parentheses, and braces on the right half:
+<img width="940" height="386" alt="image" src="https://github.com/user-attachments/assets/9b25773b-cbd4-4d47-b489-8a29b49fbee0" />
 
-- `U`/`I`: `{` / `}`
-- `J`/`K`: `(` / `)`
-- `M`/`,`: `[` / `]`
 
 ## Bluetooth layer
 
