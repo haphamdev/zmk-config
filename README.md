@@ -21,13 +21,14 @@ My simple ZMK config for my 10 column corne keyboard
 
 ### Switch layer
 
-- Right thumb 2: number and symbol layer
+- Left thumb 1: mouse simulation layer
 - Left thumb 2: navigation layer
-- Right thumb 1: app layer
-- Right thumb 3: mouse simulation layer
+- Left thumb 3 (hold Space): symbol layer
+- Right thumb 1 (hold Enter): app layer
+- Right thumb 2: number layer
 - Combo XCV: bluetooth layer
 
-## Number and symbol layer
+## Number layer
 
 <img width="940" height="390" alt="image" src="https://github.com/user-attachments/assets/d9d9a372-d099-4e74-84b1-8cd4e9a30263" />
 
@@ -68,12 +69,20 @@ I use Raycast to create shortcuts for the following apps:
 - `Z`: Sending Cmd + Shift + Ctrl + Z (for opening Zalo);
 - `C`: Sending Cmd + Shift + Ctrl + C (for opening Claude AI);
 - `V`: Sending Cmd + Shift + Ctrl + V (for opening Visual Studio Code);
+- `Q`: Sending `:qa` for Vim quit all windows
 
 ### Combos
 
 - `SD`: `Cmd + Tab` (Switch between apps)
 - `DF`: `Cmd + Backtick` (Switch between windows of the same app)
-- `QW`: Sending `:qa` (Vim quit all)
+
+## Symbol layer
+
+Extracted from the old number layer. Contains brackets, parentheses, and braces on the right half:
+
+- `U`/`I`: `{` / `}`
+- `J`/`K`: `(` / `)`
+- `M`/`,`: `[` / `]`
 
 ## Bluetooth layer
 
