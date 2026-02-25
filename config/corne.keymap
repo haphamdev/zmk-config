@@ -67,7 +67,7 @@
         ltl: layer_tap_long {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            flavor = "tap-preferred";
+            flavor = "balanced";
             tapping-term-ms = <350>;
             bindings = <&mo>, <&kp>;
             display-name = "Layer-Tap Long";
@@ -237,7 +237,7 @@
             timeout-ms = <50>;
             key-positions = <21 22>;  // X C
             bindings = <&kp LG(LS(C))>;
-            layers = <LYR_NAV>;
+            layers = <LYR_NUM>;
         };
 
         combo_caps_word {
