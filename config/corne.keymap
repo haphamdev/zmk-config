@@ -9,6 +9,55 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/pointing.h>
 
+/*
+ Key position definitions
+    0  1  2  3  4     5  6  7  8  9
+   10 11 12 13 14    15 16 17 18 19
+   20 21 22 23 24    25 26 27 28 29
+         30 31 32    33 34 35
+
+    Q  W  E  R  T     Y  U  I  O  P
+    A  S  D  F  G     H  J  K  L  ;
+    Z  X  C  V  B     N  M  ,  .  /
+         LT1 LT2 LT3 RT1 RT2 RT3
+*/
+#define POS_Q  0
+#define POS_W  1
+#define POS_E  2
+#define POS_R  3
+#define POS_T  4
+#define POS_Y  5
+#define POS_U  6
+#define POS_I  7
+#define POS_O  8
+#define POS_P  9
+#define POS_A  10
+#define POS_S  11
+#define POS_D  12
+#define POS_F  13
+#define POS_G  14
+#define POS_H  15
+#define POS_J  16
+#define POS_K  17
+#define POS_L  18
+#define POS_SEMI 19
+#define POS_Z  20
+#define POS_X  21
+#define POS_C  22
+#define POS_V  23
+#define POS_B  24
+#define POS_N  25
+#define POS_M  26
+#define POS_COMMA 27
+#define POS_DOT 28
+#define POS_FSLH 29
+#define POS_LT1 30
+#define POS_LT2 31
+#define POS_LT3 32
+#define POS_RT1 33
+#define POS_RT2 34
+#define POS_RT3 35
+
 // Layer definitions
 #define LYR_BASE 0
 #define LYR_NUM  1
@@ -50,7 +99,7 @@
             tapping-term-ms = <280>;
             quick-tap-ms = <175>;
             bindings = <&kp>, <&kp>;
-            hold-trigger-key-positions = <5 6 7 8 9 15 16 17 18 19 25 26 27 28 29 33 34 35>;
+            hold-trigger-key-positions = <POS_Y POS_U POS_I POS_O POS_P POS_H POS_J POS_K POS_L POS_SEMI POS_N POS_M POS_COMMA POS_DOT POS_FSLH POS_RT1 POS_RT2 POS_RT3>;
             hold-trigger-on-release;
         };
         hmr: home_row_mod_right {
@@ -61,7 +110,7 @@
             tapping-term-ms = <280>;
             quick-tap-ms = <175>;
             bindings = <&kp>, <&kp>;
-            hold-trigger-key-positions = <0 1 2 3 4 10 11 12 13 14 20 21 22 23 24 30 31 32>;
+            hold-trigger-key-positions = <POS_Q POS_W POS_E POS_R POS_T POS_A POS_S POS_D POS_F POS_G POS_Z POS_X POS_C POS_V POS_B POS_LT1 POS_LT2 POS_LT3>;
             hold-trigger-on-release;
         };
         ltl: layer_tap_long {
@@ -174,82 +223,82 @@
 
         combo_bluetooth {
             timeout-ms = <50>;
-            key-positions = <21 22 23>;  // X C V
+            key-positions = <POS_X POS_C POS_V>;
             bindings = <&mo LYR_BLU>;
         };
 
         combo_backspace {
             timeout-ms = <50>;
-            key-positions = <17 18>;  // K L
+            key-positions = <POS_K POS_L>;
             bindings = <&kp BACKSPACE>;
         };
 
         combo_tab {
             timeout-ms = <50>;
-            key-positions = <11 12>;  // S D
+            key-positions = <POS_S POS_D>;
             bindings = <&kp TAB>;
             layers = <LYR_BASE>;
         };
 
         combo_copy {
             timeout-ms = <50>;
-            key-positions = <21 22>;  // X C
+            key-positions = <POS_X POS_C>;
             bindings = <&kp LG(C)>;
             layers = <LYR_BASE>;
         };
 
         combo_paste {
             timeout-ms = <50>;
-            key-positions = <22 23>;  // C V
+            key-positions = <POS_C POS_V>;
             bindings = <&kp LG(V)>;
             layers = <LYR_BASE>;
         };
 
         combo_clipboard_history {
             timeout-ms = <50>;
-            key-positions = <12 13>;  // D F
+            key-positions = <POS_D POS_F>;
             bindings = <&kp LG(LS(V))>;
             layers = <LYR_BASE>;
         };
 
         combo_vim_quit {
             timeout-ms = <50>;
-            key-positions = <0 1>;  // Q W
+            key-positions = <POS_Q POS_W>;
             bindings = <&vim_quit>;
             layers = <LYR_BASE>;
         };
 
         combo_num_ctrl {
             timeout-ms = <50>;
-            key-positions = <10 11>;  // A S in num layer
+            key-positions = <POS_A POS_S>;
             bindings = <&kp LCTRL>;
             layers = <LYR_NUM>;
         };
 
         combo_num_backspace {
             timeout-ms = <50>;
-            key-positions = <17 18>;  // - and \ (minus and backslash) in num layer
+            key-positions = <POS_K POS_L>;
             bindings = <&kp BACKSPACE>;
             layers = <LYR_NUM>;
         };
 
         combo_nav_copy_url {
             timeout-ms = <50>;
-            key-positions = <21 22>;  // X C
+            key-positions = <POS_X POS_C>;
             bindings = <&kp LG(LS(C))>;
             layers = <LYR_NUM>;
         };
 
         combo_caps_word {
             timeout-ms = <50>;
-            key-positions = <26 27>;  // M and ,
+            key-positions = <POS_M POS_COMMA>;
             bindings = <&caps_word>;
             layers = <LYR_BASE>;
         };
 
         combo_caps_lock {
             timeout-ms = <50>;
-            key-positions = <27 28>;  // , and .
+            key-positions = <POS_COMMA POS_DOT>;
             bindings = <&kp CAPSLOCK>;
             layers = <LYR_BASE>;
         };
@@ -257,7 +306,7 @@
         // Sending Ctrl + Shift to switch input languages
         combo_lang_switch {
             timeout-ms = <50>;
-            key-positions = <6 7>;  // U I
+            key-positions = <POS_U POS_I>;
             bindings = <&kp LC(LSHFT)>;
             layers = <LYR_BASE>;
         };
@@ -265,7 +314,7 @@
         // App layer: Cmd + Tab to switch between apps
         combo_app_switch {
             timeout-ms = <50>;
-            key-positions = <11 12>;  // S D
+            key-positions = <POS_S POS_D>;
             bindings = <&kp LG(TAB)>;
             layers = <LYR_APP>;
         };
@@ -273,7 +322,7 @@
         // App layer: Cmd + ` to switch between windows
         combo_window_switch {
             timeout-ms = <50>;
-            key-positions = <12 13>;  // D F
+            key-positions = <POS_D POS_F>;
             bindings = <&kp LG(GRAVE)>;
             layers = <LYR_APP>;
         };
