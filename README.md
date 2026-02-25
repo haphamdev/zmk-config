@@ -36,15 +36,13 @@ My simple ZMK config for my 10 column corne keyboard
 
 - `AS`: Ctrl
 - `KL`: Backspace
+- `XC`: `Cmd Shift C` (Copy URL on browser)
+
   <img width="802" height="316" alt="image" src="https://github.com/user-attachments/assets/4738db68-66c8-461e-a701-cb1a69a6f6ab" />
 
 ## Navigation layer
 
 <img width="940" height="390" alt="image" src="https://github.com/user-attachments/assets/1bb68cad-5489-4d6c-8d31-2ec51e5e1f2b" />
-
-### Combos
-
-- `XC`: `Cmd Shift C` (Copy URL on browser)
 
 ## Mouse simulation layer
 
@@ -79,7 +77,6 @@ I use Raycast to create shortcuts for the following apps:
 ## Symbol layer
 
 <img width="940" height="386" alt="image" src="https://github.com/user-attachments/assets/9b25773b-cbd4-4d47-b489-8a29b49fbee0" />
-
 
 ## Bluetooth layer
 
