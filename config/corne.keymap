@@ -68,9 +68,9 @@
 #define LYR_BLU  6
 
 
-#define COMBO_TIMEOUT_DEFAULT = 50
-#define COMBO_TIMEOUT_MEDIUM = 75
-#define COMBO_TIMEOUT_LONG = 125
+#define COMBO_TIMEOUT_DEFAULT 50
+#define COMBO_TIMEOUT_MEDIUM 75
+#define COMBO_TIMEOUT_LONG 125
 
 / {
     chosen {
