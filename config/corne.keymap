@@ -227,82 +227,82 @@
         compatible = "zmk,combos";
 
         combo_bluetooth {
-            timeout-ms = COMBO_TIMEOUT_MEDIUM;
+            timeout-ms = <COMBO_TIMEOUT_MEDIUM>;
             key-positions = <POS_X POS_C POS_V>;
             bindings = <&mo LYR_BLU>;
         };
 
         combo_backspace {
-            timeout-ms = COMBO_TIMEOUT_MEDIUM;
+            timeout-ms = <COMBO_TIMEOUT_MEDIUM>;
             key-positions = <POS_K POS_L>;
             bindings = <&kp BACKSPACE>;
         };
 
         combo_tab {
-            timeout-ms = COMBO_TIMEOUT_MEDIUM;
+            timeout-ms = <COMBO_TIMEOUT_MEDIUM>;
             key-positions = <POS_S POS_D>;
             bindings = <&kp TAB>;
             layers = <LYR_BASE>;
         };
 
         combo_copy {
-            timeout-ms = COMBO_TIMEOUT_MEDIUM;
+            timeout-ms = <COMBO_TIMEOUT_MEDIUM>;
             key-positions = <POS_X POS_C>;
             bindings = <&kp LG(C)>;
             layers = <LYR_BASE>;
         };
 
         combo_paste {
-            timeout-ms = COMBO_TIMEOUT_MEDIUM;
+            timeout-ms = <COMBO_TIMEOUT_MEDIUM>;
             key-positions = <POS_C POS_V>;
             bindings = <&kp LG(V)>;
             layers = <LYR_BASE>;
         };
 
         combo_clipboard_history {
-            timeout-ms = COMBO_TIMEOUT_MEDIUM;
+            timeout-ms = <COMBO_TIMEOUT_MEDIUM>;
             key-positions = <POS_D POS_F>;
             bindings = <&kp LG(LS(V))>;
             layers = <LYR_BASE>;
         };
 
         combo_vim_quit {
-            timeout-ms = COMBO_TIMEOUT_MEDIUM;
+            timeout-ms = <COMBO_TIMEOUT_MEDIUM>;
             key-positions = <POS_Q POS_W>;
             bindings = <&vim_quit>;
             layers = <LYR_BASE>;
         };
 
         combo_num_ctrl {
-            timeout-ms = COMBO_TIMEOUT_MEDIUM;
+            timeout-ms = <COMBO_TIMEOUT_MEDIUM>;
             key-positions = <POS_A POS_S>;
             bindings = <&kp LCTRL>;
             layers = <LYR_NUM>;
         };
 
         combo_num_backspace {
-            timeout-ms = COMBO_TIMEOUT_MEDIUM;
+            timeout-ms = <COMBO_TIMEOUT_MEDIUM>;
             key-positions = <POS_K POS_L>;
             bindings = <&kp BACKSPACE>;
             layers = <LYR_NUM>;
         };
 
         combo_nav_copy_url {
-            timeout-ms = COMBO_TIMEOUT_MEDIUM;
+            timeout-ms = <COMBO_TIMEOUT_MEDIUM>;
             key-positions = <POS_X POS_C>;
             bindings = <&kp LG(LS(C))>;
             layers = <LYR_NUM>;
         };
 
         combo_caps_word {
-            timeout-ms = COMBO_TIMEOUT_MEDIUM;
+            timeout-ms = <COMBO_TIMEOUT_MEDIUM>;
             key-positions = <POS_M POS_COMMA>;
             bindings = <&caps_word>;
             layers = <LYR_BASE>;
         };
 
         combo_caps_lock {
-            timeout-ms = COMBO_TIMEOUT_MEDIUM;
+            timeout-ms = <COMBO_TIMEOUT_MEDIUM>;
             key-positions = <POS_COMMA POS_DOT>;
             bindings = <&kp CAPSLOCK>;
             layers = <LYR_BASE>;
@@ -310,7 +310,7 @@
 
         // Sending Ctrl + Shift to switch input languages
         combo_lang_switch {
-            timeout-ms = COMBO_TIMEOUT_MEDIUM;
+            timeout-ms = <COMBO_TIMEOUT_MEDIUM>;
             key-positions = <POS_U POS_I>;
             bindings = <&kp LC(LSHFT)>;
             layers = <LYR_BASE>;
@@ -318,7 +318,7 @@
 
         // App layer: Cmd + Tab to switch between apps
         combo_app_switch {
-            timeout-ms = COMBO_TIMEOUT_MEDIUM;
+            timeout-ms = <COMBO_TIMEOUT_MEDIUM>;
             key-positions = <POS_S POS_D>;
             bindings = <&kp LG(TAB)>;
             layers = <LYR_APP>;
@@ -326,7 +326,7 @@
 
         // App layer: Cmd + ` to switch between windows
         combo_window_switch {
-            timeout-ms = COMBO_TIMEOUT_MEDIUM;
+            timeout-ms = <COMBO_TIMEOUT_MEDIUM>;
             key-positions = <POS_D POS_F>;
             bindings = <&kp LG(GRAVE)>;
             layers = <LYR_APP>;
