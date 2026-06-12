@@ -4,7 +4,8 @@ My simple ZMK config for my 10 column corne keyboard
 
 ## Base layer
 
-<img width="966" height="405" alt="image" src="https://github.com/user-attachments/assets/34f6fae9-ef95-4028-8d3f-a75bf3f8e7f0" />
+<img width="940" height="379" alt="image" src="https://github.com/user-attachments/assets/d2311763-80fc-4ca0-a117-732a9a225870" />
+
 
 ### Combos
 
@@ -27,6 +28,8 @@ My simple ZMK config for my 10 column corne keyboard
 - Right thumb 1 (hold Enter): app layer
 - Right thumb 2: number layer
 - Combo XCV: bluetooth layer
+
+Note: Pressing `Right thumb 2` (without holding) sends `F19` which is the leader key of my Wezterm.
 
 ## Number layer
 
