@@ -150,7 +150,7 @@
 &kp Q              &kp W              &kp E              &kp R                 &kp T                 /**/        &kp Y                &kp U                 &kp I              &kp O              &kp P
 &hml LGUI A        &hml LALT S        &hml LCTRL D       &hml LSHFT F          &kp G                 /**/        &kp H                &hmr RSHFT J          &hmr RCTRL K       &hmr RALT L        &hmr RGUI SEMI
 &kp Z              &kp X              &kp C              &kp V                 &kp B                 /**/        &kp N                &kp M                 &kp COMMA          &kp DOT            &kp FSLH
-                                      &mo LYR_MOU        &lt LYR_NAV ESCAPE    &ltl LYR_SYM SPACE    /**/        &ltl LYR_APP RET     &lt LYR_NUM LC(F)     &kp DEL
+                                      &mo LYR_MOU        &lt LYR_NAV ESCAPE    &ltl LYR_SYM SPACE    /**/        &ltl LYR_APP RET     &lt LYR_NUM F19       &kp DEL
             >;
         };
 
