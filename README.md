@@ -79,7 +79,9 @@ I use Raycast to create shortcuts for the following apps:
 
 ## Symbol layer
 
-<img width="940" height="386" alt="image" src="https://github.com/user-attachments/assets/9b25773b-cbd4-4d47-b489-8a29b49fbee0" />
+<img width="934" height="380" alt="image" src="https://github.com/user-attachments/assets/59e152cf-5824-4efa-b645-e39b4f7a08ea" />
+
+This layer has a key mapped to `Space` which is useful when we need to hold Space, because holding the `Left thumb 3` will switch keyboard layer.
 
 ## Bluetooth layer
 
