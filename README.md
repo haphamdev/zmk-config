@@ -6,7 +6,6 @@ My simple ZMK config for my 10 column corne keyboard
 
 <img width="940" height="379" alt="image" src="https://github.com/user-attachments/assets/d2311763-80fc-4ca0-a117-732a9a225870" />
 
-
 ### Combos
 
 - `QW`: `:q!` (Vim quit)
@@ -81,7 +80,10 @@ I use Raycast to create shortcuts for the following apps:
 
 <img width="934" height="380" alt="image" src="https://github.com/user-attachments/assets/59e152cf-5824-4efa-b645-e39b4f7a08ea" />
 
-This layer has a key mapped to `Space` which is useful when we need to hold Space, because holding the `Left thumb 3` will switch keyboard layer.
+Note:
+
+- The B position in this layer is mapped to `Space` which is useful for holding Space, because holding the `Left thumb 3` will switch keyboard layer.
+- The Q position in this layer is mapped to `Cmd+Ctrl+Q` to quickly lock Mac OS screen
 
 ## Bluetooth layer
 
