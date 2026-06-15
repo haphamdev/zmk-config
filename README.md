@@ -78,7 +78,7 @@ I use Raycast to create shortcuts for the following apps:
 
 ## Symbol layer
 
-<img width="934" height="380" alt="image" src="https://github.com/user-attachments/assets/59e152cf-5824-4efa-b645-e39b4f7a08ea" />
+<img width="931" height="379" alt="image" src="https://github.com/user-attachments/assets/a9ff1148-c9df-43f7-a233-e9f22de885bd" />
 
 Note:
 
