@@ -69,6 +69,7 @@ I use Raycast to create shortcuts for the following apps:
 - `Z`: Sending Cmd + Shift + Ctrl + Z (for opening Zalo);
 - `C`: Sending Cmd + Shift + Ctrl + C (for opening Claude AI);
 - `V`: Sending Cmd + Shift + Ctrl + V (for opening Visual Studio Code);
+- `R`: Sending Cmd + Shift + Ctrl + R (for opening Safari);
 - `Q`: Sending `:qa` for Vim quit all windows
 
 ### Combos
