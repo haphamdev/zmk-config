@@ -191,7 +191,7 @@
             display-name = "app";
 
             bindings = <
-&vim_quit_all      &kp LG(LS(LC(W)))  &none              &none                 &kp LG(LS(LC(T)))     /**/        &kp LG(LS(N5))       &kp LG(LC(LEFT))      &kp LG(LC(RIGHT))  &kp LG(LC(RET))    &kp LG(LC(LBKT))
+&vim_quit_all      &kp LG(LS(LC(W)))  &none              &kp LG(LS(LC(R)))     &kp LG(LS(LC(T)))     /**/        &kp LG(LS(N5))       &kp LG(LC(LEFT))      &kp LG(LC(RIGHT))  &kp LG(LC(RET))    &kp LG(LC(LBKT))
 &kp LG(LS(LC(A)))  &kp LG(LS(LC(S)))  &kp LG(LS(LC(D)))  &kp LG(LS(LC(F)))     &kp LG(LS(LC(G)))     /**/        &kp LG(LS(N4))       &trans                &trans             &none              &none
 &kp LG(LS(LC(Z)))  &none              &kp LG(LS(LC(C)))  &kp LG(LS(LC(V)))     &none                 /**/        &kp LG(LS(N2))       &trans                &trans             &none              &none
                                       &trans             &trans                &raycast              /**/        &trans               &trans                &trans
