@@ -52,7 +52,7 @@ Note: Pressing `Right thumb 2` (without holding) sends `F19` which is the leader
 
 ## App layer
 
-<img width="964" height="394" alt="image" src="https://github.com/user-attachments/assets/54ed4892-4efb-4e24-a150-526af6cab403" />
+<img width="937" height="386" alt="image" src="https://github.com/user-attachments/assets/2e1e5ffa-7ce6-4b09-8d88-2e46b5e0f6e2" />
 
 ### App shortcuts
 
