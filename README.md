@@ -16,7 +16,6 @@ My simple ZMK config for my 10 column corne keyboard
 - `DF`: `Cmd Shift V` Clipboard history
 - `M,`: Caps word
 - `,.`: Caps lock
-- `UI`: Tap for Ctrl Shift (for switching input language between Vietnamese and English), which is more convenient than **holding** J+K or D+F
 - `XCV`: Hold to enable bluetooth layer
 
 ### Switch layer
@@ -45,6 +44,10 @@ Note: Pressing `Right thumb 2` (without holding) sends `F19` which is the leader
 ## Navigation layer
 
 <img width="940" height="390" alt="image" src="https://github.com/user-attachments/assets/1bb68cad-5489-4d6c-8d31-2ec51e5e1f2b" />
+
+Note:
+
+- The B position in this layer is mapped to `Ctrl+Shift` to switch the input language (English - Vietnamese)
 
 ## Mouse simulation layer
 
