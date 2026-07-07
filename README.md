@@ -45,10 +45,6 @@ Note: Pressing `Right thumb 2` (without holding) sends `F19` which is the leader
 
 <img width="940" height="390" alt="image" src="https://github.com/user-attachments/assets/1bb68cad-5489-4d6c-8d31-2ec51e5e1f2b" />
 
-Note:
-
-- The B position in this layer is mapped to `Ctrl+Shift` to switch the input language (English - Vietnamese)
-
 ## Mouse simulation layer
 
 <img width="931" height="386" alt="image" src="https://github.com/user-attachments/assets/59196a27-481a-4e8c-803e-6c9ecb747aa5" />
@@ -73,6 +69,7 @@ I use Raycast to create shortcuts for the following apps:
 - `C`: Sending Cmd + Shift + Ctrl + C (for opening Claude AI);
 - `V`: Sending Cmd + Shift + Ctrl + V (for opening Visual Studio Code);
 - `R`: Sending Cmd + Shift + Ctrl + R (for opening Safari);
+- `B`: Sending Cmd + Shift + Ctrl + B (for searching tabs in my Arc browser);
 - `Q`: Sending `:qa` for Vim quit all windows
 
 ### Combos
