@@ -16,7 +16,6 @@ My simple ZMK config for my 10 column corne keyboard
 - `DF`: `Cmd Shift V` Clipboard history
 - `M,`: Caps word
 - `,.`: Caps lock
-- `UI`: Tap for Ctrl Shift (for switching input language between Vietnamese and English), which is more convenient than **holding** J+K or D+F
 - `XCV`: Hold to enable bluetooth layer
 
 ### Switch layer
@@ -70,6 +69,7 @@ I use Raycast to create shortcuts for the following apps:
 - `C`: Sending Cmd + Shift + Ctrl + C (for opening Claude AI);
 - `V`: Sending Cmd + Shift + Ctrl + V (for opening Visual Studio Code);
 - `R`: Sending Cmd + Shift + Ctrl + R (for opening Safari);
+- `B`: Sending Cmd + Shift + Ctrl + B (for searching tabs in my Arc browser);
 - `Q`: Sending `:qa` for Vim quit all windows
 
 ### Combos
