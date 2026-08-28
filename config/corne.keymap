@@ -203,7 +203,7 @@
         sym {
             bindings = <
 &kp LG(LC(Q))      &trans             &trans             &trans                &trans                /**/        &trans               &kp LBRC              &kp RBRC           &trans             &trans
-&trans             &trans             &trans             &trans                &trans                /**/        &trans               &kp LPAR              &kp RPAR           &trans             &trans
+&trans             &trans             &trans             &trans                &kp GLOBE                /**/        &trans               &kp LPAR              &kp RPAR           &trans             &trans
 &trans             &trans             &trans             &trans                &kp SPACE                /**/        &trans               &kp LBKT              &kp RBKT           &trans             &trans
                                       &trans             &trans                &trans                /**/        &trans               &trans                &trans
             >;
